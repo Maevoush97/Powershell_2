@@ -1,0 +1,23 @@
+ Id CommandLine                                                                      
+  -- -----------                                                                      
+   1 Set-Location C:\                                                                 
+   2 Set-Location -Path C:\...                                                        
+   3 New-Item -Path EvenFolder -ItemType Directory                                    
+   4 New-Item -Path OddFolder -ItemType Directory                                     
+   5 Set-Location FolderTest1                                                         
+   6 Get-ChildItem                                                                    
+   7 Move-Item -Path File1 -Destination C:\OddFolder                                  
+   8 Move-Item -Path File3 -Destination C:\OddFolder                                  
+   9 Move-Item -Path File5 -Destination C:\OddFolder                                  
+  10 Move-Item -Path File2 -Destination C:\EvenFolder                                 
+  11 Move-Item -Path File4 -Destination C:\EvenFolder                                 
+  12 Set-Location C:\                                                                 
+  13 Set-Location FolderTest2                                                         
+  14 Get-ChildItem                                                                    
+  15 Move-Item -Path File7 -Destination C:\OddFolder                                  
+  16 Move-Item -Path File9 -Destination C:\OddFolder                                  
+  17 Move-Item -Path File6 -Destination C:\EvenFolder                                 
+  18 Move-Item -Path File8 -Destination C:\EvenFolder                                 
+  19 Move-Item -Path File10 -Destination C:\EvenFolder                                
+  20 Set-Location C:_                                                                 
+  21 Set-Location C:\                                                                
